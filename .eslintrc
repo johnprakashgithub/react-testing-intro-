@@ -1,0 +1,8 @@
+"globals": {
+  "React": true,
+  "ReactDOM": true,
+  "PropTypes": true,
+  "shallow": true,
+  "expect": true,
+  "itRenders": true
+}
