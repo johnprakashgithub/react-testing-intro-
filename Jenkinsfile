@@ -12,7 +12,7 @@ node {
  }
  }
  stage('docker build/push') {
-    docker.withRegistry('https://index.docker.io/v1/', 'dockerhub') {
+    docker.withRegistry('https://index.docker.io/v1/', 'mydockerhub') {
     def app = docker.build("johnprakash/react-demo-app:${commit_id}", '.').push()
    }
  }
